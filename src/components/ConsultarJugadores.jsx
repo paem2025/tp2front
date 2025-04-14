@@ -16,7 +16,7 @@ function ConsultarJugadores() {
       <ul>
         {jugadores.map((jug, i) => (
           <li key={i}>
-            #{jug.numero} - {jug.apellido} ({jug.posicion}) - {jug.minutos} min
+            N°{jug.numero} - {jug.apellido} ({jug.posicion}) - {jug.minutos} min
             {jug.goles !== undefined && ` - ${jug.goles} goles`}
           </li>
         ))}

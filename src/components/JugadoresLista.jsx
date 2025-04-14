@@ -13,10 +13,10 @@ const JugadoresLista = ({ jugadores }) => {
           <table className="min-w-full table-auto border-collapse">
             <thead>
               <tr className="bg-gray-100 dark:bg-gray-700 text-left text-sm font-semibold text-gray-600 dark:text-gray-300">
-                <th className="px-4 py-2 border-b border-gray-300 dark:border-gray-600">#</th>
+                <th className="px-4 py-2 border-b border-gray-300 dark:border-gray-600">N° Camiseta</th>
                 <th className="px-4 py-2 border-b border-gray-300 dark:border-gray-600">Apellido</th>
                 <th className="px-4 py-2 border-b border-gray-300 dark:border-gray-600">Posición</th>
-                <th className="px-4 py-2 border-b border-gray-300 dark:border-gray-600">Minutos</th>
+                <th className="px-4 py-2 border-b border-gray-300 dark:border-gray-600">Minutos Jugados</th>
                 <th className="px-4 py-2 border-b border-gray-300 dark:border-gray-600">Goles</th>
               </tr>
             </thead>
