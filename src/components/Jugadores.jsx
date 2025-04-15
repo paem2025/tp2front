@@ -22,7 +22,7 @@ const jugadoresData = [
     {
       numero: 8,
       apellido: 'López',
-      posicion: 'Central',
+      posicion: 'Mediocampista',
       goles: 1,
       minutos: 88
     }

@@ -28,7 +28,10 @@ const JugadoresLista = ({ jugadores }) => {
                 >
                   <td className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">{jugador.numero}</td>
                   <td className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">{jugador.apellido}</td>
-                  <td className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">{jugador.posicion}</td>
+                  <td className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">
+  {jugador.posicion === 'Central' ? 'Mediocampista' : jugador.posicion}
+</td>
+
                   <td className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">{jugador.minutos}</td>
                   <td className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">
                     {jugador.goles !== undefined ? jugador.goles : '—'}
